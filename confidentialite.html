@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de confidentialité — Ivycore Web Solutions</title>
+<meta name="description" content="Politique de confidentialité du site Ivycore Web Solutions.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .legal-page { padding: calc(var(--header-h) + 64px) 0 96px; }
+  .legal-page h1 { font-size: 2rem; margin-bottom: 24px; }
+  .legal-page h2 { font-size: 1.15rem; margin: 32px 0 10px; }
+  .legal-page p, .legal-page li { color: var(--gray-700); margin-bottom: 10px; }
+  .legal-page a.back { color: var(--accent); font-weight: 600; }
+</style>
+</head>
+<body>
+<header class="site-header scrolled">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="30" height="30"><path d="M16 3l11 5.5v15L16 29 5 23.5v-15z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+      </span>
+      <span class="brand-text"><span class="brand-name">IVYCORE</span><span class="brand-sub">WEB SOLUTIONS</span></span>
+    </a>
+    <a href="index.html" class="back">&larr; Retour au site</a>
+  </div>
+</header>
+<main class="legal-page">
+  <div class="wrap" style="max-width:760px;">
+    <p><a href="index.html" class="back">&larr; Retour à l'accueil</a></p>
+    <h1>Politique de confidentialité</h1>
+    <p>Cette page décrira la façon dont Ivycore Web Solutions collecte et traite les données transmises via le formulaire de contact. Elle sera complétée avec une politique de confidentialité conforme au RGPD avant la mise en production.</p>
+    <h2>Données collectées</h2>
+    <p>Le formulaire de contact permet de transmettre : nom, entreprise, e-mail, téléphone, type de projet et message.</p>
+    <h2>Utilisation des données</h2>
+    <p>Ces informations sont utilisées uniquement pour répondre à votre demande de devis et ne sont ni revendues, ni cédées à des tiers.</p>
+    <h2>Vos droits</h2>
+    <p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données. Pour l'exercer, contactez contact@ivycore.fr.</p>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-bottom"><p>© <span id="year"></span> Ivycore Web Solutions — Tous droits réservés.</p></div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
